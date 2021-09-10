@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int a;
+char b;
+float c;
+double d;
+cout << "size of char: " << sizeof (b) << " byte" << endl;
+cout << "size of int: " << sizeof (a) << " bytes" << endl;
+cout << "size of float: " << sizeof (c) << " bytes" << endl;
+cout << "size of double: " << sizeof (d) << " bytes" << endl;
+return 0;
+}
