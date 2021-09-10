@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+double a;
+double b;
+cout << "Enter two numbers:" << endl;
+cin >> a >> b;
+float p = a*b;
+cout << "Product = " << p << endl;
+return 0;
+}
